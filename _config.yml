@@ -18,13 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: f*ck instagram
+email: boter42@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+  alternative to instagram	
+baseurl: "/grid" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -34,6 +35,26 @@ remote_theme: jirrian/jekyll-theme-image-grid@main
 plugins:
   - jekyll-feed
 
+# generate social links in footer
+social_links:
+  twitter: ORARiccardo
+  instagram: fucku_decomposition
+
+# settings for image grid homepage
+grid_settings:
+  show_all_images: true #true - displays all images in grid page, false - only show first (file name of image sorted alphabetically) image of post in grid page
+  display: square-cropped #square-cropped - images displayed in square grid and cropped, #square-og - images displayed in square grid and with original aspect ratio, masonry - images displayed in original aspect ratio but staggered (please note this will display the images in top to bottom order instead of left to right)
+
+# settings for post pages
+post_settings:
+  show_title: true #true - shows title of post (post filename or title in front matter of post file), false - does not show title of post. this settings can be overwritten in the frontmatter of individual post files with the show_title variable.
+  show_date: true #true - shows date of post (from post filename), false - does not show date of post
+
+plugins:
+  - jekyll-seo-tag
+
+include:
+  - _images
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
