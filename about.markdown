@@ -4,8 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Texting and exploring alternatives to IG. All thanks to [jekyll] /
-[Jillian Zhong](https://github.com/jirrian/jekyll-theme-image-grid)
+Testing and exploring alternatives to IG. 
+
+Hosted on Github Pages.
+
+All thanks to [tutorials](https://pages.virtualgoodsdealer.com/articles/tutorial) made by [ada.wrong](https://pages.virtualgoodsdealer.com/creatordirectory/adawrong)
+
+Powered by [jekyll] [jekyll-organization]\
+Theme by [Jillian Zhong](https://github.com/jirrian/jekyll-theme-image-grid)
 
 
 [jekyll-organization]: https://github.com/jekyll
