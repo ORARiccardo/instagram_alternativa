@@ -6,7 +6,7 @@ permalink: /about/
 
 Testing and exploring alternatives to IG. 
 
-Hosted on Github Pages.
+Hosted on Github Pages. Info about myself [here](https://orariccardo.github.io/)
 
 All thanks to [tutorials](https://pages.virtualgoodsdealer.com/articles/tutorial) made by [ada.wrong](https://pages.virtualgoodsdealer.com/creatordirectory/adawrong)
 
